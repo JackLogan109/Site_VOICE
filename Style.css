@@ -1,0 +1,45 @@
+.logo{
+    width: 200px;
+    border-radius: 50%;
+}
+.header-style{
+    display: flex;
+    background-color: gray;
+    
+}
+.Site-header{
+    width: 100%;
+    margin-left: 20px;
+}
+.teacher-list{
+    display: flex;
+    justify-content: space-between;
+}
+.teacher{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.teachers{
+    text-align: center;
+    
+}
+aside{
+    background-color: rgb(243, 145, 65);
+}
+.learn-button-header{
+    text-align: center;
+}
+.learn-button{
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    column-gap: 10%;
+}
